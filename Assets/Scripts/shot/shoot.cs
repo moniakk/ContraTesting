@@ -13,13 +13,18 @@ public class shoot : MonoBehaviour {
 
         if(Input.GetMouseButtonDown(0) && (Time.fixedTime - lastShootTime) > 1 / dps) {
             lastShootTime = Time.fixedTime;
-
             shootStart();
             }
+
         }
 
-    public virtual void shootStart() {
+    void Start() {
 
+        }
+    public virtual void shootStart() {
+        if(transform.position.x > 0) {
+        var fff = 123123;
+            }
 
         }
 

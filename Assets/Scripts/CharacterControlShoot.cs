@@ -24,6 +24,15 @@ public class CharacterControlShoot : MonoBehaviour {
             }
         }
 
+    void SetGun(int gunID) {
+
+        
+            deleteGun();
+            Transform dd = (Transform)Instantiate(guns[gunID].transform, transform.position, Quaternion.identity);
+            dd.parent = transform;
+
+        }
+
     void deleteGun() {
         var allChildren = gameObject.GetComponentsInChildren(typeof(Transform));
         for(int i = 0; i < allChildren.Length; i++) {

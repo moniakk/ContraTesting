@@ -3,13 +3,17 @@ using System.Collections;
 
 public class MapRandom : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-}
+    public GameObject[] obj;
+    public float spawnMin = 1f;
+    public float spawnMax = 1f;
+
+    // Use this for initialization
+    void Start() {
+    Spawn();
+        }
+
+    void Spawn() {
+        Instantiate(obj[Random.Range(0, obj.GetLength(0))], transform.position, Quaternion.identity);
+        Invoke("Spawn", Random.Range(spawnMin, spawnMax));
+        }
+    }
