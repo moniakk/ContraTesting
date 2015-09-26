@@ -3,9 +3,9 @@ using System.Collections;
 
 public class CharacterControlShoot : MonoBehaviour {
     public GameObject[] guns;
-    // Use this for initialization
+  
     void Start() {
-
+      
         }
 
     // Update is called once per frame

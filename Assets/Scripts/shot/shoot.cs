@@ -22,9 +22,7 @@ public class shoot : MonoBehaviour {
 
         }
     public virtual void shootStart() {
-        if(transform.position.x > 0) {
-        var fff = 123123;
-            }
+     
 
         }
 
