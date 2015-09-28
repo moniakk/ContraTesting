@@ -14,6 +14,8 @@ public class gun2 : shoot {
             Rigidbody2D currentRigiedBody = newBullet.GetComponent<Rigidbody2D>();
             currentRigiedBody.AddForce(Vector2.right * 90 + Vector2.up * (i - 1.5f)*10);
             Destroy(newBullet, 3);
+
+        
             }
 
         }
