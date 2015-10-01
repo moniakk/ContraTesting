@@ -1,4 +1,4 @@
-Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+Initialize engine version: 5.2.1f1 (44735ea161b3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -16,12 +16,8 @@ Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\
 Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.065 seconds
+- Completed reload, in  0.053 seconds
 desktop: 1600x900 60Hz; virtual: 3200x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.dll (this message is harmless)

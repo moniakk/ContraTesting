@@ -12,6 +12,8 @@ public class MapGun : MonoBehaviour {
     void Update() {
         if(drop) {
             transform.Translate(Vector2.down * 0.1f);
+          
+
             }
         }
     void OnTriggerEnter2D(Collider2D hit) {

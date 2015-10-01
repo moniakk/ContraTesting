@@ -5,6 +5,7 @@ public class UserInfo : MonoBehaviour {
 
     public static string UserName;
     public static bool gender;
+
     void Start() {
 
     }
