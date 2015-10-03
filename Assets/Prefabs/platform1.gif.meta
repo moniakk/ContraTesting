@@ -1,0 +1,2234 @@
+fileFormatVersion: 2
+guid: 2de7ee8f42f83a940a9b4a326cc42723
+timeCreated: 1443790944
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: platform1_0
+    21300002: platform1_1
+    21300004: platform1_2
+    21300006: platform1_3
+    21300008: platform1_4
+    21300010: platform1_5
+    21300012: platform1_6
+    21300014: platform1_7
+    21300016: platform1_8
+    21300018: platform1_9
+    21300020: platform1_10
+    21300022: platform1_11
+    21300024: platform1_12
+    21300026: platform1_13
+    21300028: platform1_14
+    21300030: platform1_15
+    21300032: platform1_16
+    21300034: platform1_17
+    21300036: platform1_18
+    21300038: platform1_19
+    21300040: platform1_20
+    21300042: platform1_21
+    21300044: platform1_22
+    21300046: platform1_23
+    21300048: platform1_24
+    21300050: platform1_25
+    21300052: platform1_26
+    21300054: platform1_27
+    21300056: platform1_28
+    21300058: platform1_29
+    21300060: platform1_30
+    21300062: platform1_31
+    21300064: platform1_32
+    21300066: platform1_33
+    21300068: platform1_34
+    21300070: platform1_35
+    21300072: platform1_36
+    21300074: platform1_37
+    21300076: platform1_38
+    21300078: platform1_39
+    21300080: platform1_40
+    21300082: platform1_41
+    21300084: platform1_42
+    21300086: platform1_43
+    21300088: platform1_44
+    21300090: platform1_45
+    21300092: platform1_46
+    21300094: platform1_47
+    21300096: platform1_48
+    21300098: platform1_49
+    21300100: platform1_50
+    21300102: platform1_51
+    21300104: platform1_52
+    21300106: platform1_53
+    21300108: platform1_54
+    21300110: platform1_55
+    21300112: platform1_56
+    21300114: platform1_57
+    21300116: platform1_58
+    21300118: platform1_59
+    21300120: platform1_60
+    21300122: platform1_61
+    21300124: platform1_62
+    21300126: platform1_63
+    21300128: platform1_64
+    21300130: platform1_65
+    21300132: platform1_66
+    21300134: platform1_67
+    21300136: platform1_68
+    21300138: platform1_69
+    21300140: platform1_70
+    21300142: platform1_71
+    21300144: platform1_72
+    21300146: platform1_73
+    21300148: platform1_74
+    21300150: platform1_75
+    21300152: platform1_76
+    21300154: platform1_77
+    21300156: platform1_78
+    21300158: platform1_79
+    21300160: platform1_80
+    21300162: platform1_81
+    21300164: platform1_82
+    21300166: platform1_83
+    21300168: platform1_84
+    21300170: platform1_85
+    21300172: platform1_86
+    21300174: platform1_87
+    21300176: platform1_88
+    21300178: platform1_89
+    21300180: platform1_90
+    21300182: platform1_91
+    21300184: platform1_92
+    21300186: platform1_93
+    21300188: platform1_94
+    21300190: platform1_95
+    21300192: platform1_96
+    21300194: platform1_97
+    21300196: platform1_98
+    21300198: platform1_99
+    21300200: platform1_100
+    21300202: platform1_101
+    21300204: platform1_102
+    21300206: platform1_103
+    21300208: platform1_104
+    21300210: platform1_105
+    21300212: platform1_106
+    21300214: platform1_107
+    21300216: platform1_108
+    21300218: platform1_109
+    21300220: platform1_110
+    21300222: platform1_111
+    21300224: platform1_112
+    21300226: platform1_113
+    21300228: platform1_114
+    21300230: platform1_115
+    21300232: platform1_116
+    21300234: platform1_117
+    21300236: platform1_118
+    21300238: platform1_119
+    21300240: platform1_120
+    21300242: platform1_121
+    21300244: platform1_122
+    21300246: platform1_123
+    21300248: platform1_124
+    21300250: platform1_125
+    21300252: platform1_126
+    21300254: platform1_127
+    21300256: platform1_128
+    21300258: platform1_129
+    21300260: platform1_130
+    21300262: platform1_131
+    21300264: platform1_132
+    21300266: platform1_133
+    21300268: platform1_134
+    21300270: platform1_135
+    21300272: platform1_136
+    21300274: platform1_137
+    21300276: platform1_138
+    21300278: platform1_139
+    21300280: platform1_140
+    21300282: platform1_141
+    21300284: platform1_142
+    21300286: platform1_143
+    21300288: platform1_144
+    21300290: platform1_145
+    21300292: platform1_146
+    21300294: platform1_147
+    21300296: platform1_148
+    21300298: platform1_149
+    21300300: platform1_150
+    21300302: platform1_151
+    21300304: platform1_152
+    21300306: platform1_153
+    21300308: platform1_154
+    21300310: platform1_155
+    21300312: platform1_156
+    21300314: platform1_157
+    21300316: platform1_158
+    21300318: platform1_159
+    21300320: platform1_160
+    21300322: platform1_161
+    21300324: platform1_162
+    21300326: platform1_163
+    21300328: platform1_164
+    21300330: platform1_165
+    21300332: platform1_166
+    21300334: platform1_167
+    21300336: platform1_168
+    21300338: platform1_169
+    21300340: platform1_170
+    21300342: platform1_171
+    21300344: platform1_172
+    21300346: platform1_173
+    21300348: platform1_174
+    21300350: platform1_175
+    21300352: platform1_176
+    21300354: platform1_177
+    21300356: platform1_178
+    21300358: platform1_179
+    21300360: platform1_180
+    21300362: platform1_181
+    21300364: platform1_182
+    21300366: platform1_183
+    21300368: platform1_184
+    21300370: platform1_185
+    21300372: platform1_186
+    21300374: platform1_187
+    21300376: platform1_188
+    21300378: platform1_189
+    21300380: platform1_190
+    21300382: platform1_191
+    21300384: platform1_192
+    21300386: platform1_193
+    21300388: platform1_194
+    21300390: platform1_195
+    21300392: platform1_196
+    21300394: platform1_197
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: platform1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 182
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_25
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_28
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_29
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_32
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_43
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_47
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_49
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_50
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_51
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_53
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_58
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_59
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_60
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_61
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_62
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_65
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_67
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_68
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_69
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_70
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_71
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_75
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_76
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_80
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_81
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_83
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_84
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_85
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_86
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_87
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_89
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_100
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_101
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_103
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_104
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_105
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_107
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_110
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_112
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_114
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_115
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_117
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_118
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_119
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_120
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_121
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_122
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_123
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_125
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_127
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_128
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_129
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_131
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_132
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_133
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_134
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_135
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_136
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_137
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_138
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_139
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_140
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_141
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_142
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_143
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_145
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_146
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_147
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_148
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_149
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_150
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_151
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_152
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_153
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_154
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_155
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_156
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_157
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_158
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_159
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_160
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_161
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_163
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_164
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_165
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_166
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_167
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_168
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_169
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_170
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_171
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_172
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_173
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_174
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_175
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_176
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_177
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_178
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_179
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_181
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_182
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_183
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_184
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_185
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_186
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_187
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_188
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_189
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_190
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_191
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_192
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_193
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_194
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_195
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_196
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform1_197
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

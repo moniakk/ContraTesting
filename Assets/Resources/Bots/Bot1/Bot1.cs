@@ -17,10 +17,10 @@ namespace Bot
         void Start()
         {
 
-            hand = (Transform)transform.FindChild("Hand");
+            hand = (Transform)transform.FindChild("hand");
 
             currentAmmo = MaxAmmo;
-            FirePoint = (Transform)transform.FindChild("Hand").FindChild("FirePoint");
+            FirePoint = (Transform)transform.FindChild("hand").FindChild("FirePoint");
             if (FirePoint == null)
             {
                 Debug.LogError("WTF? No Fire point");
@@ -37,11 +37,7 @@ namespace Bot
             //transform.Translate(Vector3.left * 0.01f);
             if (IsStarted)
             {
-
-
                 var dir = TargetObject.transform.position - transform.position;
-
-
                 if (dir.x < 0)
                 {
                     transform.rotation = new Quaternion(0, 180, 0, 0);

@@ -15,47 +15,75 @@ namespace Bot
 
         public LayerMask layerMask;
 
-        Rigidbody2D rigidbody2D;
+        Rigidbody2D currentRigidbody2D;
         bool finishPoint;
         bool IsJumping;
+
         void Start()
         {
-            rigidbody2D = GetComponent<Rigidbody2D>();
-
+            currentRigidbody2D = GetComponent<Rigidbody2D>();
         }
 
         void Update()
         {
-            if (currentFloor != null)
+            if (IsStarted)
             {
-                float x = transform.position.x + movementSpeed;
-                finishPoint = x < currentFloor.bounds.min.x + 0.5f;
-                if (!finishPoint)
+                if (currentFloor != null)
                 {
-                    transform.Translate(Vector2.left * movementSpeed);
-                }
-                jump();
+                    float x = transform.position.x + movementSpeed * Time.deltaTime;
+                    finishPoint = x < currentFloor.bounds.min.x + 0.5f;
+                    if (!finishPoint)
+                    {
+                        transform.Translate(Vector2.left * movementSpeed);
+                    }
+                    else { jump(); }
 
-                if (Input.GetMouseButtonDown(0))
-                {
-                    CalcData(currentFloor);
                 }
-
             }
+
 
         }
 
 
+        void OnTriggerStay2D(Collider2D col)
+        {
+            if (col.tag != "bot")
+            {
+                //return;
+            }
 
+            if (transform.position.x <= col.bounds.max.x + 2)
+            {
+                if (transform.position.y < col.bounds.max.y)
+                {
+                    if (transform.position.y > col.bounds.min.y)
+                    {
+                        float ColX = transform.GetComponent<BoxCollider2D>().bounds.max.x;
+                        if (ColX >col.bounds.max.x + 2)
+                        {
+                            //jump();
+                            if (IsJumping)
+                            {
+                                IsJumping = false;
+                                currentRigidbody2D.AddForce((Vector2.left * ForceLeft) + Vector2.up * ForceUp);
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
 
         void OnCollisionEnter2D(Collision2D col)
         {
             if (col.transform.tag == "floor")
             {
                 currentFloor = col.collider;
-
             }
+
             IsJumping = true;
+
         }
 
 
@@ -63,19 +91,22 @@ namespace Bot
         void OnTriggerEnter2D(Collider2D col)
         {
 
-            // jump();
-        }
-
-        void jump()
-        {
-            if (finishPoint && IsJumping && CalcData(currentFloor))
+            if (col.tag == "Player")
             {
-                IsJumping = false;
-                rigidbody2D.AddForce((Vector2.left * ForceLeft) + Vector2.up * ForceUp);
+                IsStarted = true;
             }
 
         }
 
+        void jump()
+        {
+            if (IsJumping && CalcData(currentFloor))
+            {
+                IsJumping = false;
+                currentRigidbody2D.AddForce((Vector2.left * ForceLeft) + Vector2.up * ForceUp);
+            }
+
+        }
 
 
 
@@ -87,10 +118,6 @@ namespace Bot
         [Range(0.01f, 0.1f)]
         public float Step = 0.5f;
         public float MinY = -2;
-
-        float oldStep = 0.0f;
-        float oldBulletSpeed = 0f;
-
 
 
         bool CalcData(Collider2D col)
@@ -109,22 +136,14 @@ namespace Bot
                 itCount += 1;
                 float stepTime = (float)itCount * Step;
                 Vector2 currentPosition = originPosition + speed * stepTime + Physics2D.gravity * stepTime * stepTime / 2f;
-
-
                 hit2D = Physics2D.RaycastAll(prevPosition, currentPosition - prevPosition, Mathf.Abs((prevPosition - currentPosition).magnitude), layerMask).ToList();
                 hit2D = hit2D.Where(x => x.collider.tag == "floor").ToList();
-
                 Debug.DrawLine(prevPosition, currentPosition, Color.green, 2, false);
                 foreach (var item in hit2D)
                 {
-                    if (item.collider != null && item.collider != col)
-                    {
-                        return true;
-                    }
-
+                    return item.collider != null && item.collider != col;
                 }
                 prevPosition = currentPosition;
-
             }
 
             return false;

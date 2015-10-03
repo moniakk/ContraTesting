@@ -13,7 +13,7 @@ public class BotBulletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * 0.1f);
+        transform.Translate(Vector2.left * 0.1f);
     }
     void OnCollisionEnter2D(Collision2D col)
     {
