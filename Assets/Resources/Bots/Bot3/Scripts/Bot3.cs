@@ -12,24 +12,19 @@ namespace Bot {
         Vector3 startPosition;
         Vector3 TargetPosition;
         Rigidbody2D rigidbody2D;
-        bool IsJumping = true;
+        bool IsJumping;
         bool IsStarted;
 
         List<Collider2D> colaiders = new List<Collider2D>();
         Collider2D cuurentColaider;
 
-        List<Collider2D> jumpColaider;
 
         void Start() {
-            jumpColaider = transform.FindChild("JumpColaider").GetComponent<JumpColaider>().colaiders;
-           
             rigidbody2D = GetComponent<Rigidbody2D>();
             startPosition = transform.position;
             EndPosition = startPosition + EndPosition;
             if (!AutoTargetPlayer)
                 TargetPosition = EndPosition;
-
-
         }
 
 
@@ -41,21 +36,20 @@ namespace Bot {
 
             }
             if (Input.GetMouseButtonDown(1)) {
+                jumpTest();
                 foreach (var item in colaiders) {
                     if (item != cuurentColaider) {
-
-                        Jump();
+                        //  Jump(item.transform.position);
                         break;
                     }
 
                 }
             }
+
         }
 
-        void Jump() {
 
-            rigidbody2D.AddForce(new Vector2(-400, 400));
-        }
+
 
         void MoveToTarget() {
             Vector3 nextPosition = TargetPosition - transform.position;
@@ -78,12 +72,39 @@ namespace Bot {
 
         }
 
+        void Jump(Vector3 target) {
+            float yTar = target.y - transform.position.y;
+            float xTar = target.x - transform.position.x;
+            float distance = Vector3.Distance(transform.position, target);
+
+            rigidbody2D.AddForce(new Vector2(31 * xTar, 150 * Math.Abs(yTar)));
+
+
+
+        }
+        void jumpTest() {
+
+            Vector2 force = new Vector2(1, 3);
+            Vector2 Gravity = new Vector2(0f, -1f);
+
+            for (int i = 0; i < 100; i++) {
+                Vector3 pos = new Vector3(force.x, force.y) * 0.01f;
+                force = force - Gravity;
+                transform.position = pos;
+            }
+
+        }
+
+
+
         void OnCollisionEnter2D(Collision2D col) {
             if (col.transform.tag == "floor") {
                 cuurentColaider = col.collider;
             }
-            // IsJumping = true;
+            IsJumping = true;
         }
+
+
 
         void OnTriggerEnter2D(Collider2D col) {
             if (col.tag == "Player") {
@@ -99,21 +120,7 @@ namespace Bot {
             colaiders.Remove(col);
         }
 
-        float g = Physics.gravity.y * -1f;
-        float v0 = 15;
-        double GetAngle(Vector3 pos) {
-            float L = Vector3.Distance(transform.position, pos);
-            float h = pos.y - transform.position.y;
 
-            double result = 0f;
-            double tmp1 = Math.Pow(L, 2) * Math.Pow(v0, 4) - g * Math.Pow(L, 2) * (2 * h * Math.Pow(v0, 2) + g * Math.Pow(L, 2));
-            if (tmp1 < 0)
-                return -1;
-            double tmp2 = L * Math.Pow(v0, 2);
-            double tmp3 = tmp2 - Math.Sqrt(tmp1);
-            double tmp4 = tmp3 / (g * Math.Pow(L, 2));
-            result = Math.Atan(tmp4);
-            return result;
-        }
+
     }
 }
