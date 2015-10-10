@@ -17,24 +17,136 @@ Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine
 Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.042 seconds
+- Completed reload, in  0.053 seconds
+desktop: 1600x900 60Hz; virtual: 3200x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.038 seconds
 desktop: 1600x900 60Hz; virtual: 3200x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 536c -> priority: 1 
-  Thread -> id: 505c -> priority: 1 
+  Thread -> id: 3b88 -> priority: 1 
+  Thread -> id: 3608 -> priority: 1 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.389725 ms
+UnloadTime: 2.803789 ms
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 529.
-Total: 0.255685 ms (FindLiveObjects: 0.017206 ms CreateObjectMapping: 0.015093 ms MarkObjects: 0.206782 ms  DeleteObjects: 0.016301 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 734.
+Total: 0.379151 ms (FindLiveObjects: 0.043469 ms CreateObjectMapping: 0.032300 ms MarkObjects: 0.291306 ms  DeleteObjects: 0.010867 ms)
 
-IndexOutOfRangeException: Array index is out of range.
-  at DetailView.HeartEdit (Int32 heart) [0x00000] in <filename unknown>:0 
-  at DestroyPlayer.OnTriggerEnter2D (UnityEngine.Collider2D col) [0x00000] in <filename unknown>:0 
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 34e8 -> priority: 1 
+  Thread -> id: 22e0 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.674890 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 734.
+Total: 0.343530 ms (FindLiveObjects: 0.042563 ms CreateObjectMapping: 0.028677 ms MarkObjects: 0.260515 ms  DeleteObjects: 0.011169 ms)
+
+SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.IPAddress[] addresses, Int32 port) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.String host, Int32 port) [0x00000] in <filename unknown>:0 
+  at NetworkCore.Connect (System.String ip, Int32 port) [0x00000] in <filename unknown>:0 
+  at test.OnGUI () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
+
+SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.IPAddress[] addresses, Int32 port) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.String host, Int32 port) [0x00000] in <filename unknown>:0 
+  at NetworkCore.Connect (System.String ip, Int32 port) [0x00000] in <filename unknown>:0 
+  at test.OnGUI () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+SocketException: No connection could be made because the target machine actively refused it.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.IPAddress[] addresses, Int32 port) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.String host, Int32 port) [0x00000] in <filename unknown>:0 
+  at NetworkCore.Connect (System.String ip, Int32 port) [0x00000] in <filename unknown>:0 
+  at test.OnGUI () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.036 seconds
+desktop: 1600x900 60Hz; virtual: 3200x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.036 seconds
+desktop: 1600x900 60Hz; virtual: 3200x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\UnityProjects\Unity\Contra\Publish\PC\Contra_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2f50 -> priority: 1 
+  Thread -> id: 3924 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.804997 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 734.
+Total: 0.393641 ms (FindLiveObjects: 0.046790 ms CreateObjectMapping: 0.044375 ms MarkObjects: 0.291306 ms  DeleteObjects: 0.010867 ms)
 

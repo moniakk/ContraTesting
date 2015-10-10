@@ -9,15 +9,16 @@ public class gun2 : shoot {
 
     public override void shootStart() {
         //var newBullet = Instantiate(bullet, transform.TransformPoint(-5, 0.52f, 0), Quaternion.identity);
-        for(int i = 0; i < 3; i++) {
-        var newBullet = (GameObject)Instantiate(bullet, FirePoint.position, Quaternion.identity);
+        for (int i = 0; i < 3; i++) {
+            //var newBullet = (GameObject)Instantiate(bullet, FirePoint.position, Quaternion.identity);
+            var newBullet = (GameObject)NetworkCore.Instantiate(bullet, FirePoint.position, Quaternion.identity);
             Rigidbody2D currentRigiedBody = newBullet.GetComponent<Rigidbody2D>();
-            currentRigiedBody.AddForce(Vector2.right * 90 + Vector2.up * (i - 1.5f)*10);
+            currentRigiedBody.AddForce(Vector2.right * 90 + Vector2.up * (i - 1.5f) * 10);
             Destroy(newBullet, 3);
 
-        
-            }
 
         }
 
     }
+
+}

@@ -17,9 +17,10 @@ public class BotBulletScript : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.transform.tag != "Player" && col.transform.tag != "bullet")
+        if (col.transform.tag != "Player" && col.transform.tag != "bullet" && col.transform.tag=="bot")
         {
             Destroy(gameObject);
+            Destroy(col.transform.gameObject);
         }
 
     }
