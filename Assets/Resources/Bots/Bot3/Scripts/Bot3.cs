@@ -40,12 +40,12 @@ namespace Bot {
 
         void Update() {
             if (!IsStarted) return;
-            if (AutoTargetPlayer && targetPlayer!= null) {
+            if (AutoTargetPlayer && targetPlayer != null) {
                 TargetPosition = targetPlayer.transform.position;
                 MoveToTarget();
             }
             if (!AutoTargetPlayer) {
-                   MoveToTarget();
+                MoveToTarget();
 
             }
             if (Input.GetMouseButtonDown(1)) {
@@ -62,8 +62,8 @@ namespace Bot {
 
         private void jump1(Vector3 pos) {
             float result = (float)GetAngle(pos);
-            float x = Convert.ToSingle(Math.Cos(result)) ;
-            float y = Convert.ToSingle(Math.Sin(result)) ;
+            float x = Convert.ToSingle(Math.Cos(result));
+            float y = Convert.ToSingle(Math.Sin(result));
             //rigidbody2D.AddForce(new Vector2(x, y) * 15, ForceMode2D.Impulse);
             rigidbody2D.AddForce(ToAngle(result) * 15, ForceMode2D.Impulse);
 
@@ -99,8 +99,8 @@ namespace Bot {
         }
 
         void jumps(Vector3 nextPosition) {
-             if (nextPosition.y > 0) {
-                foreach (var item in jumpColaider.Where(x => x != curentColaider && x.bounds.max.y> BotCollaider.bounds.min.y)) {
+            if (nextPosition.y > 0) {
+                foreach (var item in jumpColaider.Where(x => x != curentColaider && x.bounds.max.y > BotCollaider.bounds.min.y)) {
                     Jump();
                     return;
                 }
@@ -154,7 +154,7 @@ namespace Bot {
             if (col.tag == "Player") {
                 IsStarted = true;
                 targetPlayer = col.transform;
-               
+
             }
             if (col.tag == "floor") {
                 colaiders.Add(col);
