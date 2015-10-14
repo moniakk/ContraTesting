@@ -6,22 +6,39 @@ using System.Linq;
 namespace Bot {
     public class Bot4 : Bot {
         List<WayPoint> collaiders = new List<WayPoint>();
+        List<Collider2D> vv3 = new List<Collider2D>();
         Rigidbody2D rigidbody;
         public Transform TargetPlayer = null;
         Collider2D curentColaider;
+
+        public GameObject platform;
         bool IsJumping;
         bool LeftToRight;
         void Start() {
             rigidbody = GetComponent<Rigidbody2D>();
+            for (int i = 0; i < 50; i++) {
+                var d = (GameObject)Instantiate(platform, new Vector3(Random.Range(1, 40), Random.Range(1, 15), 0), Quaternion.identity);
+                d.GetComponent<map4>().speed = Random.Range(0.01f, 0.2f);
+            }
         }
 
 
         void Update() {
+
             if (IsStarted) {
 
             }
             if (Input.GetKeyDown(KeyCode.Space)) {
-                Jump(TargetPlayer.position);
+
+                //Jump(TargetPlayer.position);
+            }
+            UpdateList();
+            foreach (var item in collaiders) {
+                foreach (var v3 in item.PossiblePoints) {
+                    Debug.DrawLine(item.Point, v3.Point, v3.Jump ? Color.red : Color.green);
+
+                }
+
             }
 
         }
@@ -44,7 +61,7 @@ namespace Bot {
 
         void Jump(Vector3 position) {
             if (Vector3.Distance(transform.position, position) <= JumpDistance) {
-                float offset = ( position- transform.position ).y+0.8f;
+                float offset = (position - transform.position).y + 0.8f;
                 var vector = findInitialVelocity(transform.position, position, offset);
                 Vector2 force = new Vector2(vector.x, vector.y);
                 Debug.Log(force.x + "  " + force.y);
@@ -56,30 +73,90 @@ namespace Bot {
 
         void colaidersAdd(Collider2D collaider) {
             if (collaiders.Exists(x => x.Collider == collaider)) return;
-            WayPoint wayPoint = new WayPoint();
-            wayPoint.Collider = collaider;
+            vv3.Add(collaider);
+            return;
             Vector2 cuurentPointMax = getMaxSurface(collaider);
             Vector2 cuurentPointMin = getMinSurface(collaider);
-            wayPoint.PossiblePoints.Add(new PointType() { Point = cuurentPointMax });
-            wayPoint.PossiblePoints.Add(new PointType() { Point = cuurentPointMin });
+            WayPoint wayPoint = new WayPoint();
+            wayPoint.Collider = collaider;
+            wayPoint.Point = cuurentPointMin;
+            wayPoint.PossiblePoints.Add(new ConnectedWayPoint() { Point = cuurentPointMax, Distance = Vector2.Distance(cuurentPointMax, cuurentPointMin) });
+            collaiders.Add(wayPoint);
+            SetReference(wayPoint);
+            wayPoint = new WayPoint();
+            wayPoint.Point = cuurentPointMax;
+            wayPoint.Collider = collaider;
+            wayPoint.PossiblePoints.Add(new ConnectedWayPoint() { Point = cuurentPointMin, Distance = Vector2.Distance(cuurentPointMax, cuurentPointMin) });
             collaiders.Add(wayPoint);
 
-            foreach (var wayPoints in collaiders.Where(x => x != wayPoint).ToList()) {
-                foreach (var point in wayPoints.PossiblePoints.Where(x => !x.jump)) {
-                    if (Vector2.Distance(point.Point, cuurentPointMax) <= JumpDistance || Vector2.Distance(point.Point, cuurentPointMin) <= JumpDistance) {
-                        wayPoint.PossiblePoints.Add(point);
-
-                    }
-                }
-            }
-
-
-
-            var dd = collaiders.Where(p => p.PossiblePoints.Exists(x => Vector2.Distance(x.Point, cuurentPointMax) <= JumpDistance || Vector2.Distance(x.Point, cuurentPointMin) <= JumpDistance)).ToList();
+            SetReference(wayPoint);
 
 
 
         }
+        int tmp;
+        void UpdateList() {
+            tmp = tmp+ 1;
+            if (tmp < 0) {
+               
+                return;
+            }
+            tmp = 0;
+            collaiders = new List<WayPoint>();
+            foreach (var collaider in vv3) {
+              
+              
+                Vector2 cuurentPointMax = getMaxSurface(collaider);
+                Vector2 cuurentPointMin = getMinSurface(collaider);
+                WayPoint wayPoint = new WayPoint();
+                wayPoint.Collider = collaider;
+                wayPoint.Point = cuurentPointMin;
+                wayPoint.PossiblePoints.Add(new ConnectedWayPoint() { Point = cuurentPointMax, Distance = Vector2.Distance(cuurentPointMax, cuurentPointMin) });
+                collaiders.Add(wayPoint);
+                SetReference(wayPoint);
+                wayPoint = new WayPoint();
+                wayPoint.Point = cuurentPointMax;
+                wayPoint.Collider = collaider;
+                wayPoint.PossiblePoints.Add(new ConnectedWayPoint() { Point = cuurentPointMin, Distance = Vector2.Distance(cuurentPointMax, cuurentPointMin) });
+                collaiders.Add(wayPoint);
+
+                SetReference(wayPoint);
+
+            }
+
+        }
+
+        void SetReference(WayPoint wayPoint) {
+            foreach (var wayPoints in collaiders.Where(x => x != wayPoint).ToList()) {
+                float distance = Vector2.Distance(wayPoint.Point, wayPoints.Point);
+                if (distance <= JumpDistance) {
+                    wayPoint.PossiblePoints.Add(new ConnectedWayPoint() { Point = wayPoints.Point, Jump = wayPoint.Collider != wayPoints.Collider, Distance = distance });
+                    wayPoints.PossiblePoints.Add(new ConnectedWayPoint() { Point = wayPoint.Point, Jump = wayPoint.Collider != wayPoints.Collider, Distance = distance });
+                }
+            }
+        }
+
+        void pathFinder() {
+            bool finishFind = false;
+            Vector2 start = new Vector2();
+            Vector2 end = new Vector2();
+            WayPoint wayPoint = collaiders.First(x => x.Point == start);
+            while (start != end && !finishFind) {
+                foreach (var item in wayPoint.PossiblePoints) {
+                    if (item.Point == end) {
+                        finishFind = true;
+                    }
+
+                }
+            }
+
+        }
+
+        //Vector2 GetPath(WayPoint wayPoint) {
+
+
+        //}
+
 
         Vector2 getMaxSurface(Collider2D collaider) {
             return new Vector2(collaider.bounds.max.x, collaider.bounds.max.y);
@@ -138,12 +215,14 @@ namespace Bot {
 
     public class WayPoint {
         public Collider2D Collider { get; set; }
-        public List<PointType> PossiblePoints = new List<PointType>();
+        public Vector2 Point { get; set; }
+        public List<ConnectedWayPoint> PossiblePoints = new List<ConnectedWayPoint>();
 
 
     }
-    public class PointType {
+    public class ConnectedWayPoint {
         public Vector2 Point { get; set; }
-        public bool jump { get; set; }
+        public bool Jump;
+        public float Distance;
     }
 }
