@@ -31,9 +31,10 @@ public class test : MonoBehaviour
 
         if (GUI.Button(new Rect(110, 1, 100, 45), "test"))
         {
-            var t = NetworkCore.ObjectReference[0];
-            float time = Time.deltaTime * 1;
-            t.gameObject.transform.position = Vector3.Lerp(t.gameObject.transform.position, new Vector3(10, -2, 3), time);
+            //var t = NetworkCore.ObjectReference[0];
+            //float time = Time.deltaTime * 1;
+            //t.gameObject.transform.position = Vector3.Lerp(t.gameObject.transform.position, new Vector3(10, -2, 3), time);
+
         }
         GUI.EndGroup();
     }

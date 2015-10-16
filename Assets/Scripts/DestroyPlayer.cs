@@ -5,7 +5,7 @@ public class DestroyPlayer : MonoBehaviour {
     DetailView detal;
 
 	void Start () {
-        detal = GameObject.Find("Canvas").GetComponent<DetailView>();
+       // detal = GameObject.Find("Canvas").GetComponent<DetailView>();
 	}
 	
 	// Update is called once per frame
@@ -14,7 +14,7 @@ public class DestroyPlayer : MonoBehaviour {
 	}
     void OnTriggerEnter2D(Collider2D col) {
         if (col.tag == "Player") {
-            detal.HeartEdit(-1);
+           // detal.HeartEdit(-1);
            
         }
 
