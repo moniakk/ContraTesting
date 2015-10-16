@@ -41,10 +41,32 @@ namespace Bot
                 //Jump(TargetPlayer.position);
             }
             UpdateList();
+
+            var routeengine = new Engine();
+
             foreach (var item in collaiders)
             {
+                var locationA = new Location(string.Format("{0}-{1}", item.Point.x, item.Point.y));
+                routeengine.Locations.Add(locationA);
+
+                foreach (var locationB in item.PossiblePoints)
+                {
+                    routeengine.Connections.Add(Connection.ConnectionBuilder.aConnection()
+                        .From(locationA)
+                        .To(new Location(string.Format("{0}-{1}", locationB.Point.x, locationB.Point.y)))
+                        .With((int)locationB.Distance)
+                        .Build());
+                }
+
+                var start = collaiders.First(first => first.Collider == curentColaider);
+                var end = TargetPlayer.transform.position;
+                var result = routeengine.Calculate(new Location(string.Format("{0}-{1}", start.Point.x, start.Point.y)), 
+                    new Location(string.Format("{0}-{1}", end.x, end.y)));
+
                 foreach (var v3 in item.PossiblePoints)
                 {
+                    
+
                     Debug.DrawLine(item.Point, v3.Point, v3.Jump ? Color.red : Color.green);
 
                 }
@@ -271,18 +293,17 @@ namespace Bot
     }
 }
 
-    public class WayPoint
-    {
-        public Collider2D Collider { get; set; }
-        public Vector2 Point { get; set; }
-        public List<ConnectedWayPoint> PossiblePoints = new List<ConnectedWayPoint>();
-       
+public class WayPoint
+{
+    public Collider2D Collider { get; set; }
+    public Vector2 Point { get; set; }
+    public List<ConnectedWayPoint> PossiblePoints = new List<ConnectedWayPoint>();
 
-    }
-    public class ConnectedWayPoint
-    {
-        public Vector2 Point { get; set; }
-        public bool Jump;
-        public float Distance;
-    }
+
+}
+public class ConnectedWayPoint
+{
+    public Vector2 Point { get; set; }
+    public bool Jump;
+    public float Distance;
 }
