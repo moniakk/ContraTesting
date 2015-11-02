@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 8fc44a542d31e334e8500b5948c563e7
+timeCreated: 1446375125
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: firesheet_36103390_0
+    21300002: firesheet_36103390_1
+    21300004: firesheet_36103390_2
+    21300006: firesheet_36103390_3
+    21300008: firesheet_36103390_4
+    21300010: firesheet_36103390_5
+    21300012: firesheet_36103390_6
+    21300014: firesheet_36103390_7
+    21300016: firesheet_36103390_8
+    21300018: firesheet_36103390_9
+    21300020: firesheet_36103390_10
+    21300022: firesheet_36103390_11
+    21300024: firesheet_36103390_12
+    21300026: firesheet_36103390_13
+    21300028: firesheet_36103390_14
+    21300030: firesheet_36103390_15
+    21300032: firesheet_36103390_16
+    21300034: firesheet_36103390_17
+    21300036: firesheet_36103390_18
+    21300038: firesheet_36103390_19
+    21300040: firesheet_36103390_20
+    21300042: firesheet_36103390_21
+    21300044: firesheet_36103390_22
+    21300046: firesheet_36103390_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: firesheet_36103390_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_5
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_6
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 37
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 37
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: firesheet_36103390_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 38
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

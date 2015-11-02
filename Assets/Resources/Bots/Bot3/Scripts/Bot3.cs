@@ -110,7 +110,7 @@ namespace Bot {
         void MoveToTarget() {
             Vector3 nextPosition = TargetPosition - transform.position;
             jumps(nextPosition);
-            if (floorFinish() && !NextPoint(nextPosition.normalized)) {
+            if (floorFinish() && !NextPoint(nextPosition.normalized) && false) {
 
 
             } else {
