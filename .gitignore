@@ -37,8 +37,4 @@ Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
 Library/ScriptAssemblies/Assembly-CSharp.dll
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 Library/ScriptAssemblies/Assembly-CSharp.dll
-<<<<<<< HEAD
-Library/assetDatabase3
-=======
-Library/assetDatabase3
->>>>>>> 934faf0436c49b5ab8a2c2d41c2d260337ea43af
+Publish/
