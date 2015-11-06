@@ -16,6 +16,7 @@ namespace Flying.FlyingPlane.Bullets.Bullet1 {
         void OnCollisionEnter2D(Collision2D collision) {
             anim.SetBool("explotion", true);
             GetComponent<Rigidbody2D>().isKinematic = true;
+            Destroy(GetComponent<BoxCollider2D>());
 
         }
 
