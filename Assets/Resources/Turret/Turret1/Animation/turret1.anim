@@ -18,13 +18,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: {x: .102499999, y: 0, z: 1}
-        inSlope: {x: .0706611648, y: 0, z: 0}
-        outSlope: {x: .0706611648, y: 0, z: 0}
+        inSlope: {x: .14132233, y: 0, z: 0}
+        outSlope: {x: .14132233, y: 0, z: 0}
         tangentMode: 0
-      - time: 2.01666665
+      - time: 1.00833333
         value: {x: .245000005, y: 0, z: 1}
-        inSlope: {x: .0706611648, y: 0, z: 0}
-        outSlope: {x: .0706611648, y: 0, z: 0}
+        inSlope: {x: .14132233, y: 0, z: 0}
+        outSlope: {x: .14132233, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -34,13 +34,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: {x: -.102499999, y: 0, z: 1}
-        inSlope: {x: -.0706611648, y: 0, z: 0}
-        outSlope: {x: -.0706611648, y: 0, z: 0}
+        inSlope: {x: -.14132233, y: 0, z: 0}
+        outSlope: {x: -.14132233, y: 0, z: 0}
         tangentMode: 0
-      - time: 2.01666665
+      - time: 1.00833333
         value: {x: -.245000005, y: 0, z: 1}
-        inSlope: {x: -.0706611648, y: 0, z: 0}
-        outSlope: {x: -.0706611648, y: 0, z: 0}
+        inSlope: {x: -.14132233, y: 0, z: 0}
+        outSlope: {x: -.14132233, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -51,20 +51,20 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: {x: .00999999978, y: .00999999978, z: .00999999978}
-        inSlope: {x: .4909091, y: .4909091, z: .4909091}
-        outSlope: {x: .4909091, y: .4909091, z: .4909091}
+        inSlope: {x: .981818199, y: .981818199, z: .981818199}
+        outSlope: {x: .981818199, y: .981818199, z: .981818199}
         tangentMode: 0
-      - time: 2.01666665
+      - time: 1.00833333
         value: {x: 1, y: 1, z: 1}
-        inSlope: {x: .4909091, y: .4909091, z: .4909091}
-        outSlope: {x: .4909091, y: .4909091, z: .4909091}
+        inSlope: {x: .981818199, y: .981818199, z: .981818199}
+        outSlope: {x: .981818199, y: .981818199, z: .981818199}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: Head/turretHead
   m_FloatCurves: []
   m_PPtrCurves: []
-  m_SampleRate: 60
+  m_SampleRate: 120
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -93,7 +93,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: 2.01666665
+    m_StopTime: 1.00833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -113,13 +113,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: .102499999
-        inSlope: .0706611648
-        outSlope: .0706611648
+        inSlope: .14132233
+        outSlope: .14132233
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: .245000005
-        inSlope: .0706611648
-        outSlope: .0706611648
+        inSlope: .14132233
+        outSlope: .14132233
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -135,7 +135,7 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -154,7 +154,7 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -170,13 +170,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: -.102499999
-        inSlope: -.0706611648
-        outSlope: -.0706611648
+        inSlope: -.14132233
+        outSlope: -.14132233
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: -.245000005
-        inSlope: -.0706611648
-        outSlope: -.0706611648
+        inSlope: -.14132233
+        outSlope: -.14132233
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -192,7 +192,7 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -211,7 +211,7 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 1
         inSlope: 0
         outSlope: 0
@@ -227,13 +227,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: .00999999978
-        inSlope: .4909091
-        outSlope: .4909091
+        inSlope: .981818199
+        outSlope: .981818199
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 1
-        inSlope: .4909091
-        outSlope: .4909091
+        inSlope: .981818199
+        outSlope: .981818199
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -246,13 +246,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: .00999999978
-        inSlope: .4909091
-        outSlope: .4909091
+        inSlope: .981818199
+        outSlope: .981818199
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 1
-        inSlope: .4909091
-        outSlope: .4909091
+        inSlope: .981818199
+        outSlope: .981818199
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -265,13 +265,13 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: .00999999978
-        inSlope: .4909091
-        outSlope: .4909091
+        inSlope: .981818199
+        outSlope: .981818199
         tangentMode: 10
-      - time: 2.01666665
+      - time: 1.00833333
         value: 1
-        inSlope: .4909091
-        outSlope: .4909091
+        inSlope: .981818199
+        outSlope: .981818199
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -291,7 +291,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 4
     messageOptions: 0
-  - time: 2.01666665
+  - time: 1.00833333
     functionName: DoorInfoStatus
     data: 
     objectReferenceParameter: {fileID: 0}

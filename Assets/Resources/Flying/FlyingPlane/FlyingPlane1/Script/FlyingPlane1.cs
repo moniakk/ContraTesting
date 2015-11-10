@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor;
 
 public class FlyingPlane1 : MonoBehaviour {
     public float SpeedX = 0.1f;
@@ -10,6 +11,9 @@ public class FlyingPlane1 : MonoBehaviour {
     bool IsStarted = true;
     float lastShootTime;
     float CordY;
+
+
+    public SerializedObject tttt1t;
     void Start() {
         CordY = transform.position.y;
     }
@@ -21,9 +25,24 @@ public class FlyingPlane1 : MonoBehaviour {
             if (bullet != null && (Time.fixedTime - lastShootTime) > ShootSpeed) {
                 lastShootTime = Time.fixedTime;
                 var NewBomb = Instantiate(bullet, transform.position + Vector3.down, Quaternion.identity);
-               // Destroy(NewBomb, 15);
+                // Destroy(NewBomb, 15);
             }
 
         }
     }
+
+    void OnInspectorGUI() {
+
+
+    }
+    void OnDrawGizmos() {
+      
+        print(bullet.name);
+
+    }
+
+    void OnBecameInvisible() {
+        Destroy(gameObject);
+    }
+
 }

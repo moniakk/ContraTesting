@@ -10,10 +10,6 @@ public class Water1 : MonoBehaviour {
 	
 	
 	void Update () {
-        float x = Height - TargetHeight;
-        float acceleration = -k * x;
-
-        Position += Velocity;
-        Velocity += acceleration;
+      
     }
 }
