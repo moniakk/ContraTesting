@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEditor;
-
 public class FlyingPlane1 : MonoBehaviour {
     public float SpeedX = 0.1f;
     public float RangeY = 0.1f;
@@ -12,8 +12,12 @@ public class FlyingPlane1 : MonoBehaviour {
     float lastShootTime;
     float CordY;
 
+    public UnityEditor.PrefabUtility ELVIN;
 
-    public SerializedObject tttt1t;
+
+
+
+
     void Start() {
         CordY = transform.position.y;
     }
@@ -35,9 +39,17 @@ public class FlyingPlane1 : MonoBehaviour {
 
 
     }
+
+
+    void OnPreCull() {
+
+
+    }
     void OnDrawGizmos() {
-      
-        print(bullet.name);
+       // ELVIN =(UnityEditor.PrefabUtility)new elvin();
+
+        //  ELVIN.AllElvin.Add(new elvin());
+        //   print(bullet.name);
 
     }
 

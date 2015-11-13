@@ -26,7 +26,7 @@ public class test : MonoBehaviour
         GUI.BeginGroup(new Rect(2, 2, 300, 150));
         if (GUI.Button(new Rect(1, 1, 100, 45), "connect"))
         {
-            NetworkCore.Connect("10.50.10.29", 800);
+            NetworkCore.Connect("52.32.205.90", 800);
         }
 
         if (GUI.Button(new Rect(110, 1, 100, 45), "test"))

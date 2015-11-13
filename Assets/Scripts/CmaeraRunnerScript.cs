@@ -12,7 +12,7 @@ public class CmaeraRunnerScript : MonoBehaviour {
 
         if(Player != null) {
              // transform.position = new Vector3(Player.position.x + 6, 0, -10);
-            transform.position = new Vector3(Player.position.x + 6, Player.position.y, -100);
+            transform.position = new Vector3(Player.position.x + 6, Player.position.y+4, -100);
         }
 
         

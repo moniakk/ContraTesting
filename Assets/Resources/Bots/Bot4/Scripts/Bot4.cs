@@ -86,7 +86,7 @@ namespace Bot {
                 float offset = (position - transform.position).y + 0.8f;
                 var vector = findInitialVelocity(transform.position, position, offset);
                 Vector2 force = new Vector2(vector.x, vector.y);
-                Debug.Log(force.x + "  " + force.y);
+             
                 rigidbody.velocity = force;
                 //  rigidbody.AddForce(force* 43.0f);
             }

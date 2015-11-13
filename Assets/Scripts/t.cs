@@ -26,7 +26,7 @@ public class t : MonoBehaviour {
 
         if (y < 0 || Mathf.Abs(t - 0) < Mathf.Epsilon)
         {
-            Debug.Log("Can't reach target for given x speed");
+        //    Debug.Log("Can't reach target for given x speed");
             return;
         }
 

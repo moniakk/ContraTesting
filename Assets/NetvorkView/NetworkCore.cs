@@ -16,10 +16,15 @@ public class NetworkCore : MonoBehaviour {
     static Socket client;
     public static void Connect(string ip, int port) {
         client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+
         client.Connect(ip, port);
         getAllObject();
         GameObject prefab = (GameObject)Resources.Load("test/Player1");
         Instantiates(prefab);
+
+
+        GameObject car = (GameObject)Resources.Load("Cart/Prefab/Cart1");
+        Instantiates(car);
 
     }
 
@@ -84,7 +89,7 @@ public class NetworkCore : MonoBehaviour {
 
         NetworkGameObject2D obj = new NetworkGameObject2D();
         obj.gameObject = Instantiate(Gameobj);
-        obj.gameObject.name = "test/Player1";
+        obj.gameObject.name = Gameobj.name;
         obj.IsMine = true;
 
         //obj.moveLerp = obj.gameObject.GetComponent<MoveLerp2D>();

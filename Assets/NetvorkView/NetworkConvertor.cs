@@ -50,8 +50,6 @@ public static class NetworkConvertor {
 
     public static NetworkGameObject NewGameObject(this byte[] data) {
         NetworkGameObject gameObject = new NetworkGameObject();
-
-
         string name = BToString(data.Skip(32).ToArray());
         gameObject.gameObject = (GameObject)Resources.Load(name);
         gameObject.ID = data.Take(4).ToArray().ToInt();
