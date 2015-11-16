@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: c47c42f49ad665643a8a0985f141e1c2
+timeCreated: 1447697960
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fish1_0
+    21300002: Fish1_1
+    21300004: Fish1_2
+    21300006: Fish1_3
+    21300008: Fish1_4
+    21300010: Fish1_5
+    21300012: Fish1_6
+    21300014: Fish1_7
+    21300016: Fish1_8
+    21300018: Fish1_9
+    21300020: Fish1_10
+    21300022: Fish1_11
+    21300024: Fish1_12
+    21300026: Fish1_13
+    21300028: Fish1_14
+    21300030: Fish1_15
+    21300032: Fish1_16
+    21300034: Fish1_17
+    21300036: Fish1_18
+    21300038: Fish1_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fish1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 378
+        width: 166
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 381
+        width: 149
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 383
+        width: 149
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 380
+        width: 166
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 281
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 281
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_6
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 281
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_7
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 281
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 191
+        width: 166
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 194
+        width: 149
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 196
+        width: 150
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_11
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 193
+        width: 166
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 99
+        width: 167
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 101
+        width: 149
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 103
+        width: 150
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_15
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 101
+        width: 166
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fish1_19
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 164
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

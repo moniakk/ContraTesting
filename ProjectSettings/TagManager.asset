@@ -8,6 +8,8 @@ TagManager:
   - bullet
   - floor
   - bot
+  - Fish
+  - Water
   layers:
   - Default
   - TransparentFX
