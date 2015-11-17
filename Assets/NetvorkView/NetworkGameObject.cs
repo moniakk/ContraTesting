@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class NetworkGameObject : MonoBehaviour {
-    public GameObject gameObject;//= new GameObject();
+    public GameObject gameObject=null;//= new GameObject();
     public Vector3 position = Vector3.zero;
     public Quaternion rotation = Quaternion.identity;
     public int ID;
@@ -13,7 +13,7 @@ public class NetworkGameObject : MonoBehaviour {
 }
 
 public class NetworkGameObject2D : MonoBehaviour {
-    public GameObject gameObject;//= new GameObject();
+    public GameObject gameObject=null;//= new GameObject();
     public Vector2 position = Vector2.zero;
     public Quaternion rotation = Quaternion.identity;
     public int ID;

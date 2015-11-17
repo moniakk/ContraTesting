@@ -10,7 +10,7 @@ public class Turret1 : MonoBehaviour {
     Animator anim;
     public GameObject bullet;
     float ShootLastTime = 0;
-    bool ReadyToShoot;
+   // bool ReadyToShoot;
     DoorStatus DoorInfo;
     void Start() {
         anim = GetComponent<Animator>();

@@ -9,9 +9,7 @@ public class Rocket2 : MonoBehaviour {
     public float RocketSpeed = 0.1f;
     [Range(0, 1)]
     public float MaxAngle = 0.05f;
-    void Start() {
-
-    }
+   
 
 
     void Update() {

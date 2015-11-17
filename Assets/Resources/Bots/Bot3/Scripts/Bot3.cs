@@ -13,7 +13,7 @@ namespace Bot {
         Vector3 startPosition;
         Vector3 TargetPosition;
         Transform targetPlayer;
-        Rigidbody2D rigidbody2D;
+        private Rigidbody2D rigidbody2D=null;
         bool IsJumping;
         bool IsStarted;
         bool barrier = false;

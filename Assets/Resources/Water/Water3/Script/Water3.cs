@@ -33,7 +33,7 @@ public class Water3 : MonoBehaviour {
 
     //The properties of our water
     float baseheight;
-    float left;
+    float left = 2f;
     float bottom;
 
 
@@ -93,7 +93,7 @@ public class Water3 : MonoBehaviour {
         BoxCollider2D tmp = gameObject.AddComponent<BoxCollider2D>();
         // tmp.center = new Vector2(Left + Width / 2, (Top + Bottom) / 2);
         //gameObject.GetComponent<BoxCollider2D>().size = new Vector2(Width, Top - Bottom);
-        gameObject.GetComponent<BoxCollider2D>().size = new Vector2(1,1);
+        gameObject.GetComponent<BoxCollider2D>().size = new Vector2(1, 1);
         gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
 
 
