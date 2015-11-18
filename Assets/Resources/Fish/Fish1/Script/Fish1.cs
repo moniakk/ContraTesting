@@ -23,11 +23,10 @@ public class Fish1 : MonoBehaviour {
     void Update() {
         if (IsStarted) {
             if (LastPoint) {
-                NewPosition = StartPosition + new Vector3(Random.Range(-MaxDistance, MaxDistance), Random.Range(-MaxDistance, MaxDistance), 0);
+                NewPosition = StartPosition + RandomVector3();
                 LastPoint = false;
             }
 
-            int tmp = gameObject.GetInstanceID();
 
             var dir = NewPosition - transform.position;
             if (dir.x < 0) {
@@ -45,6 +44,9 @@ public class Fish1 : MonoBehaviour {
         }
     }
 
+    Vector3 RandomVector3() {
+        return new Vector3(Random.Range(-MaxDistance, MaxDistance), Random.Range(-MaxDistance, MaxDistance), 0);
+    }
 
     void Move1() {
 
