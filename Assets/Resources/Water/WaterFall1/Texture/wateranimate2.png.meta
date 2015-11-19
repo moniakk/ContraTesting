@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 84d3058b38606fa4d8843c902523b443
+timeCreated: 1447956041
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wateranimate2_0
+    21300002: wateranimate2_1
+    21300004: wateranimate2_2
+    21300006: wateranimate2_3
+    21300008: wateranimate2_4
+    21300010: wateranimate2_5
+    21300012: wateranimate2_6
+    21300014: wateranimate2_7
+    21300016: wateranimate2_8
+    21300018: wateranimate2_9
+    21300020: wateranimate2_10
+    21300022: wateranimate2_11
+    21300024: wateranimate2_12
+    21300026: wateranimate2_13
+    21300028: wateranimate2_14
+    21300030: wateranimate2_15
+    21300032: wateranimate2_16
+    21300034: wateranimate2_17
+    21300036: wateranimate2_18
+    21300038: wateranimate2_19
+    21300040: wateranimate2_20
+    21300042: wateranimate2_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: wateranimate2_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 193
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 193
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 193
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_4
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 193
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 193
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_10
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wateranimate2_11
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 85
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
