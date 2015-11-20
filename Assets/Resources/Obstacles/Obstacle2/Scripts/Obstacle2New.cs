@@ -64,7 +64,7 @@ public class Obstacle2New : MonoBehaviour {
     }
 
     void MaterialCorrect() {
-        if (render.material != null) {// render.material.mainTextureScale = new Vector2(transform.localScale.x , transform.localScale.y);
+        if (render != null) {// render.material.mainTextureScale = new Vector2(transform.localScale.x , transform.localScale.y);
             render.material.mainTextureScale = new Vector2(transform.localScale.x * 5f, transform.localScale.y * 4f);
         }
     }

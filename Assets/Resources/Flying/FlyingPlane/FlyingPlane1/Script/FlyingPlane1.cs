@@ -11,8 +11,7 @@ public class FlyingPlane1 : MonoBehaviour {
     bool IsStarted = true;
     float lastShootTime;
     float CordY;
-
-    public UnityEditor.PrefabUtility ELVIN;
+    
 
 
 
