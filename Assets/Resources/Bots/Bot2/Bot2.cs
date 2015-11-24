@@ -7,8 +7,6 @@ namespace Bot
 {
     public class Bot2 : Bot
     {
-
-
         Collider2D currentFloor;
         public float ForceUp = 400;
         public float ForceLeft = 400;
@@ -22,7 +20,7 @@ namespace Bot
         void Start()
         {
             currentRigidbody2D = GetComponent<Rigidbody2D>();
-        }
+        } 
 
         void Update()
         {
@@ -43,8 +41,7 @@ namespace Bot
 
 
         }
-
-
+        
         void OnTriggerStay2D(Collider2D col)
         {
             if (col.tag != "bot")
@@ -81,22 +78,16 @@ namespace Bot
             {
                 currentFloor = col.collider;
             }
-
             IsJumping = true;
-
-        }
-
-
-
+                    }
+        
         void OnTriggerEnter2D(Collider2D col)
         {
-
             if (col.tag == "Player")
             {
                 IsStarted = true;
             }
-
-        }
+                    }
 
         void jump()
         {
@@ -105,21 +96,15 @@ namespace Bot
                 IsJumping = false;
                 currentRigidbody2D.AddForce((Vector2.left * ForceLeft) + Vector2.up * ForceUp);
             }
-
-        }
-
-
-
-
-
+                    }
+        
         [Range(0, 200)]
         public float BulletSpeed = 1f;//mps
 
         [Range(0.01f, 0.1f)]
         public float Step = 0.5f;
         public float MinY = -2;
-
-
+        
         bool CalcData(Collider2D col)
         {
 

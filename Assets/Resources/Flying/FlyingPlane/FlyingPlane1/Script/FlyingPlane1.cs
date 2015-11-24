@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
+
 public class FlyingPlane1 : MonoBehaviour {
     public float SpeedX = 0.1f;
     public float RangeY = 0.1f;
